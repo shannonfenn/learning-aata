@@ -24,7 +24,7 @@ If a computation has a useful mathematical invariant, add an optional check in `
 uv run pytest
 ```
 
-Checks are not the point of the repo. Use them when they sharpen feedback, such as verifying Bezout's identity for many inputs.
+Checks are not the point of the repo. They are small pytest/Hypothesis files for mathematical invariants or edge cases, not a place to do exercises. Use them when they sharpen feedback, such as verifying Bezout's identity for many inputs; otherwise ignore the folder and just run the exercise script.
 
 ## Rust
 
