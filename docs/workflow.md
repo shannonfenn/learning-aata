@@ -30,6 +30,7 @@ With `just` installed:
 
 ```sh
 just exercise ch02_integers
+just test
 just check
 ```
 
@@ -45,10 +46,10 @@ For Rust:
 cargo run --example ch02_integers
 ```
 
-Optional checks:
+Optional tests and lint:
 
 ```sh
 uv run pytest
-uv run ruff check
 cargo test
+uv run ruff check
 ```

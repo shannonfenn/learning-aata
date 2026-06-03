@@ -14,9 +14,14 @@ exercise name:
     uv run python code/python/exercises/{{name}}.py
     cargo run --example {{name}}
 
-# Run optional checks.
-check:
+# Run optional tests.
+test:
     uv run pytest
-    uv run ruff check
     cargo test
 
+# Run Python linting.
+lint:
+    uv run ruff check
+
+# Run tests and linting.
+check: test lint

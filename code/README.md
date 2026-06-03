@@ -18,13 +18,13 @@ Or run it directly:
 uv run python code/python/exercises/ch02_integers.py
 ```
 
-If a computation has a useful mathematical invariant, add an optional check in `code/python/checks/` and run:
+If a computation has a useful mathematical invariant, add an optional test in `code/python/tests/` and run:
 
 ```sh
 uv run pytest
 ```
 
-Checks are not the point of the repo. They are small pytest/Hypothesis files for mathematical invariants or edge cases, not a place to do exercises. Use them when they sharpen feedback, such as verifying Bezout's identity for many inputs; otherwise ignore the folder and just run the exercise script.
+Tests are tests. They are not the point of the repo, and they are not a place to do exercises. Use small pytest/Hypothesis files when they sharpen feedback, such as verifying Bezout's identity for many inputs; otherwise ignore the folder and just run the exercise script.
 
 ## Rust
 
@@ -47,7 +47,7 @@ Or run it directly:
 cargo run --example ch02_integers
 ```
 
-Run optional Rust checks:
+Run optional Rust tests:
 
 ```sh
 cargo test

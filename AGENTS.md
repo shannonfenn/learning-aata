@@ -74,7 +74,7 @@ See `docs/pedagogy-for-tutoring.md` for the research basis and diagnostic MCQ pa
 - Put Python exercises in `code/python/exercises/` and run them directly with `uv run python`.
 - Put reusable Rust routines in `code/rust/aata_judson/src/` and runnable examples in `code/rust/aata_judson/examples/`.
 - Implement Python first, then Rust with matching behavior.
-- Add checks/tests only when they sharpen mathematical feedback, such as testing an invariant over many inputs.
+- Add tests only when they sharpen mathematical feedback, such as testing an invariant over many inputs.
 - Keep chapter-specific code direct until repetition justifies abstraction.
 
 ## Local Commands
@@ -82,6 +82,7 @@ See `docs/pedagogy-for-tutoring.md` for the research basis and diagnostic MCQ pa
 ```sh
 uv sync
 just exercise ch02_integers
+just test
 just check
 uv run python code/python/exercises/ch02_integers.py
 cargo run --example ch02_integers

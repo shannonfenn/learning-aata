@@ -20,12 +20,12 @@ package = false
 
 [tool.pytest.ini_options]
 pythonpath = ["code/python"]
-testpaths = ["code/python/checks"]
+testpaths = ["code/python/tests"]
 
 [tool.ruff]
 line-length = 100
 target-version = "py312"
-src = ["code/python/exercises", "code/python/checks", "scripts"]
+src = ["code/python/exercises", "code/python/tests", "scripts"]
 extend-exclude = [".cache", ".uv-cache", ".venv", "references"]
 
 [tool.ruff.lint]
