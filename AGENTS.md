@@ -81,6 +81,7 @@ See `docs/pedagogy-for-tutoring.md` for the research basis and diagnostic MCQ pa
 
 ```sh
 uv sync
+just ch02
 just exercise ch02
 just test
 just check

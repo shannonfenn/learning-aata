@@ -29,6 +29,7 @@ Use this sequence when asking an agent for help:
 With `just` installed:
 
 ```sh
+just ch02
 just exercise ch02
 just test
 just check

@@ -9,6 +9,7 @@ Put runnable Python exercise files in `code/python/exercises/`.
 Run one with `just`:
 
 ```sh
+just py-ch02
 just py ch02
 ```
 
@@ -38,6 +39,7 @@ The split exists because Cargo distinguishes library code from executable exampl
 Run one with `just`:
 
 ```sh
+just rs-ch02
 just rs ch02
 ```
 
@@ -65,5 +67,6 @@ Use chapter-prefixed names so the mapping is obvious:
 The learner-facing command should still be the same exercise name:
 
 ```sh
+just ch02
 just exercise ch02
 ```

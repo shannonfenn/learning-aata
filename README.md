@@ -27,6 +27,7 @@ Workspace for self-study of Thomas W. Judson's *Abstract Algebra: Theory and App
 With `just` installed:
 
 ```sh
+just ch02
 just exercise ch02
 just test
 just check
