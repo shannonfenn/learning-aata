@@ -35,4 +35,4 @@ Load the relevant skill when the user's task matches it:
 - `aata-tutoring` for hints, explanations, diagnostic questions, and transfer problems.
 - `aata-solution-assessment` for assessing typed or handwritten solution attempts.
 - `aata-study-planning` for chapter plans, exercise selection, progress tracking, and source/version checks.
-- `aata-code-exercises` for Sage, Python, Rust, and computational exercise work.
+- `aata-code-exercises` for Sage, Python, and computational exercise work.

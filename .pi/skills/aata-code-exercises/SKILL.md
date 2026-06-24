@@ -1,11 +1,11 @@
 ---
 name: aata-code-exercises
-description: Build and verify Sage, Python, and Rust exercises for Judson AATA using uv-managed Python and Python-first-then-Rust implementations. Use for computational examples, coding exercises, tests, and code recommendations tied to covered algebra concepts.
+description: Build and verify Sage and Python exercises for Judson AATA using uv-managed Python. Use for computational examples, coding exercises, tests, and code recommendations tied to covered algebra concepts.
 ---
 
 # AATA Code Exercises
 
-Use this skill when the user asks for Sage examples, Python exercises, Rust implementations, computational checks, tests, or code recommendations related to AATA study.
+Use this skill when the user asks for Sage examples, Python exercises, computational checks, tests, or code recommendations related to AATA study.
 
 ## Required Context
 
@@ -22,8 +22,6 @@ Before coding, check:
 - Python is managed by `uv`; run Python commands with `uv run`.
 - Prefer runnable exercise files over package-style code.
 - Put Python exercises in `code/python/exercises/` and run them directly with `uv run python`.
-- Put reusable Rust routines in `code/rust/aata_judson/src/` and runnable examples in `code/rust/aata_judson/examples/`.
-- Implement Python first, then Rust with matching behavior.
 - Add tests only when they sharpen mathematical feedback, such as testing an invariant over many inputs.
 - Keep chapter-specific code direct until repetition justifies abstraction.
 - Recommend coding exercises only when they directly reinforce the current chapter's covered concepts.
@@ -40,10 +38,8 @@ just exercise ch02
 just test
 just check
 uv run python code/python/exercises/ch02.py
-cargo run --example ch02
 uv run pytest
 uv run ruff check
-cargo test
 scripts/update_aata_diff.sh
 ```
 

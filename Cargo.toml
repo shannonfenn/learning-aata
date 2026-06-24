@@ -1,4 +1,0 @@
-[workspace]
-members = ["code/rust/aata_judson"]
-resolver = "2"
-

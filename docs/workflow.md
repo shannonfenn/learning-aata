@@ -11,8 +11,7 @@
 7. Use Pitt solutions for feedback, not as the starting point.
 8. Add one or more Sage checks when computation can clarify the structure.
 9. Implement any programming exercise as a runnable Python file.
-10. Implement the same behavior as a runnable Rust example.
-11. Update `tracking/progress.md` and `tracking/code-exercises.md`.
+10. Update `tracking/progress.md` and `tracking/code-exercises.md`.
 
 ## Tutoring Loop
 
@@ -41,16 +40,9 @@ For Python:
 uv run python code/python/exercises/ch02.py
 ```
 
-For Rust:
-
-```sh
-cargo run --example ch02
-```
-
 Optional tests and lint:
 
 ```sh
 uv run pytest
-cargo test
 uv run ruff check
 ```

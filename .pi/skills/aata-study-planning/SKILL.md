@@ -43,8 +43,7 @@ The default per-chapter sequence is:
 7. Use Pitt solutions for feedback, not as the starting point.
 8. Add Sage checks when computation can clarify the structure.
 9. Implement programming exercises as runnable Python files.
-10. Implement matching Rust examples.
-11. Update `tracking/progress.md` and `tracking/code-exercises.md`.
+10. Update `tracking/progress.md` and `tracking/code-exercises.md`.
 
 ## Progress Updates
 
