@@ -11,7 +11,7 @@ Workspace for self-study of Thomas W. Judson's *Abstract Algebra: Theory and App
 - Coverage: all AATA chapters, with Chapter 7 (Cryptography) and Chapter 20 (Vector Spaces) treated as refresh chapters because they were already studied independently.
 - Code workflow: write runnable Python exercises. Add tests only when they clarify a mathematical invariant.
 - Sage workflow: use Sage/Runestone examples for computation-heavy algebra exploration, keeping local `.sage` files under `sage/`.
-- Agent harness: Pi project resources under `.pi/` provide the local system prompt, tutoring/planning/coding skills, and prompt templates. Trust the project in Pi to load them.
+- Agent harnesses: Pi resources under `.pi/` and OpenCode resources under `.opencode/` provide neutral routing plus explicit pedagogical roles. This repo intentionally avoids `AGENTS.md` so general coding agents are not forced into tutor behavior.
 
 ## Layout
 
@@ -23,6 +23,11 @@ Workspace for self-study of Thomas W. Judson's *Abstract Algebra: Theory and App
 - `code/`: runnable Python coding exercises and optional tests.
 - `scripts/`: resource fetch and AATA diff helpers.
 - `.pi/`: Pi harness resources for tutoring, assessment, planning, and coding workflows.
+- `.opencode/`: OpenCode harness resources for the same pedagogical workflows.
+
+## Agent Harnesses
+
+See `docs/agent-harnesses.md` for the v0 Pi/OpenCode setup, role boundaries, and usage notes.
 
 ## Common Commands
 
