@@ -1,8 +1,8 @@
 # Sage Workspace
 
-Use this folder for Sage computations that support the textbook exercises.
+Use this folder for Sage computations that support the active study pack's textbook exercises.
 
-The current official AATA online/Runestone versions include live Sage cells. Local files here should mirror the same learning pattern:
+Some study packs include official or community Sage examples. Local files should mirror the same learning pattern:
 
 1. state the mathematical object being explored;
 2. run a small computation;
@@ -16,4 +16,3 @@ sage sage/ch02-integers/euclidean_algorithm.sage
 ```
 
 Sage is not managed by `uv` and may need a separate install.
-

@@ -1,6 +1,6 @@
 # Code Exercises
 
-This folder is script-first. The goal is to make AATA coding exercises easy to write, run, and inspect.
+This folder is script-first. The goal is to make mathematics coding exercises easy to write, run, and inspect.
 
 ## Python
 
@@ -29,7 +29,7 @@ Tests are tests. They are not the point of the repo, and they are not a place to
 
 ## Naming
 
-Use chapter-prefixed names so the mapping is obvious:
+Use study-pack-appropriate chapter or section prefixes so the mapping is obvious:
 
 - `ch02.py`
 - `test_ch02.py`

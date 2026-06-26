@@ -12,7 +12,7 @@ Use the upstream Git tags as the practical errata source:
 Generated reports live in `references/aata/diffs/`. Refresh them with:
 
 ```sh
-scripts/update_aata_diff.sh
+studies/judson-aata/scripts/update_aata_diff.sh
 ```
 
 ## High-Value Changes Since 2021
@@ -33,8 +33,7 @@ These are the changes most likely to matter while reading the 2021 physical copy
 Read the physical 2021 copy first. Before doing exercises in a chapter, scan this file and optionally search the generated diff reports for that chapter source file:
 
 ```sh
-rg "Chapter 5|Theorem 5.21|permute.xml" references/aata/diffs docs
+rg "Chapter 5|Theorem 5.21|permute.xml" references/aata/diffs studies/judson-aata
 ```
 
 For Sage material, prefer the 2025 PDF or Runestone because the online material has had the most maintenance.
-

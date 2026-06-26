@@ -3,15 +3,15 @@
 ## Per Chapter
 
 1. Read the 2021 print chapter.
-2. Check `docs/aata-2021-to-current.md` for known updates.
+2. Check `editions/2021-to-current.md` for known updates.
 3. Answer Judson reading questions without notes.
 4. Work Pitt Math 0430 assigned problems first.
-5. Apply known Pitt-to-2021 renumbering from `docs/pitt-exercise-verification.md`.
+5. Apply known Pitt-to-2021 renumbering from `exercises/verification.md`.
 6. Use Judson hints only after an honest attempt.
 7. Use Pitt solutions for feedback, not as the starting point.
 8. Add one or more Sage checks when computation can clarify the structure.
 9. Implement any programming exercise as a runnable Python file.
-10. Update `tracking/progress.md` and `tracking/code-exercises.md`.
+10. Update `state/progress.md` and `state/code-exercises.md`.
 
 ## Tutoring Loop
 
@@ -45,4 +45,11 @@ Optional tests and lint:
 ```sh
 uv run pytest
 uv run ruff check
+```
+
+Refresh downloaded references:
+
+```sh
+uv run python studies/judson-aata/scripts/fetch_references.py
+studies/judson-aata/scripts/update_aata_diff.sh
 ```

@@ -1,7 +1,7 @@
 [project]
-name = "learning-abstract-algebra-judson"
+name = "mathematics-study-workspace"
 version = "0.1.0"
-description = "Study workspace for Judson's Abstract Algebra: Theory and Applications."
+description = "Study workspace for mathematics texts with reusable pedagogy harnesses."
 requires-python = ">=3.12"
 dependencies = [
   "sympy>=1.14",
@@ -25,7 +25,7 @@ testpaths = ["code/python/tests"]
 [tool.ruff]
 line-length = 100
 target-version = "py312"
-src = ["code/python/exercises", "code/python/tests", "scripts"]
+src = ["code/python/exercises", "code/python/tests", "studies/judson-aata/scripts"]
 extend-exclude = [".cache", ".uv-cache", ".venv", "references"]
 
 [tool.ruff.lint]

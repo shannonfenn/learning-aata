@@ -9,6 +9,5 @@ This folder stores local copies of study resources. Keep source URLs and licensi
 Refresh with:
 
 ```sh
-uv run python scripts/fetch_references.py
+uv run python studies/judson-aata/scripts/fetch_references.py
 ```
-

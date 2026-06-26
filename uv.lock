@@ -33,7 +33,7 @@ wheels = [
 ]
 
 [[package]]
-name = "learning-abstract-algebra-judson"
+name = "mathematics-study-workspace"
 version = "0.1.0"
 source = { virtual = "." }
 dependencies = [

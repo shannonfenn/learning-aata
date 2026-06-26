@@ -5,7 +5,7 @@ from pathlib import Path
 from urllib.parse import unquote, urljoin, urlparse
 from urllib.request import Request, urlopen
 
-ROOT = Path(__file__).resolve().parents[1]
+ROOT = Path(__file__).resolve().parents[3]
 
 
 def clean_filename(filename: str) -> str:

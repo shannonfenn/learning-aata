@@ -1,2 +1,1 @@
-"""Runnable Python exercises for Judson AATA."""
-
+"""Runnable Python exercises for active mathematics study packs."""

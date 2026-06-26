@@ -17,6 +17,5 @@ Generated update reports:
 Refresh update reports with:
 
 ```sh
-scripts/update_aata_diff.sh
+studies/judson-aata/scripts/update_aata_diff.sh
 ```
-

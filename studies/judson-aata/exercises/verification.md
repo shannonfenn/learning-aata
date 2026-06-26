@@ -4,7 +4,7 @@ Checked on 2026-05-29 against the local AATA 2021 PDF and upstream AATA source t
 
 ## How to Use This
 
-Use `tracking/pitt-math0430-index.md` for the exercise subset. Apply the corrections in this file when an old Pitt assignment number no longer points to the same 2021 exercise.
+Use `index.md` for the exercise subset. Apply the corrections in this file when an old Pitt assignment number no longer points to the same 2021 exercise.
 
 Do not reverify the Pitt exercise list unless the local AATA edition or downloaded Pitt files change.
 
@@ -34,4 +34,3 @@ The Spring 2016 course was keyed to AATA 2015.
 | PS5 | 13.2, 13.5, 16.1(a),(b),(c),(f),(h), 16.2, 16.6, 16.10, 16.17, 16.22, 16.26, 16.31 | Pitt `16.34` -> 2021 `16.33`; Pitt `16.38` -> 2021 `16.37` | Same ring-exercise renumbering as Fall 2017. |
 | PS6 | 16.27, 17.2(b), 17.3(b), 17.4(c), 17.7, 17.9, 17.10, 17.18, 17.20, 17.21, 17.24 | Pitt `16.40` -> 2021 `16.39` | Pitt's note about the `17.18` typo is resolved in AATA 2021. |
 | PS7 | 18.10, 18.11(d), 18.14, 18.17 | none | Statements match. |
-

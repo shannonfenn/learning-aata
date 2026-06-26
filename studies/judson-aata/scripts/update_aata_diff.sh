@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-ROOT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
+ROOT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/../../.." && pwd)"
 UPSTREAM_DIR="$ROOT_DIR/.cache/aata-upstream"
 OUT_DIR="$ROOT_DIR/references/aata/diffs"
 
@@ -26,4 +26,3 @@ git -C "$UPSTREAM_DIR" diff Annual-Edition-2021..Annual-Edition-2025 -- src \
   > "$OUT_DIR/2021-to-2025-source.diff"
 
 echo "AATA diff reports updated in $OUT_DIR"
-

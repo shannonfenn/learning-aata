@@ -1,27 +1,24 @@
-# Learning Abstract Algebra with Judson AATA
+# Mathematics Study Workspace
 
-Workspace for self-study of Thomas W. Judson's *Abstract Algebra: Theory and Applications* using the 2021 print edition as the primary reading copy, with current online references, Pitt Math 0430 problem sets, MIT OCW notes, Sage examples, and Python exercises managed by `uv`.
+Workspace for self-study of mathematics texts using reusable Pi/OpenCode pedagogy roles and text-specific study packs. The active study pack is currently Thomas W. Judson's *Abstract Algebra: Theory and Applications* (AATA).
 
-## Current Study Policy
+## Active Study Pack
 
+- Active selector: `studies/active.md`.
+- Current pack: `studies/judson-aata/`.
 - Primary text: 2021 print/PDF edition of Judson AATA.
-- Update check: compare against the official 2025 online/PDF edition and upstream Git tags.
-- Primary exercise filter: Pitt Math 0430, especially Fall 2017 first, then Spring 2016 as supplemental.
-- Secondary reference: MIT OCW 18.703 lecture notes and assignments.
-- Coverage: all AATA chapters, with Chapter 7 (Cryptography) and Chapter 20 (Vector Spaces) treated as refresh chapters because they were already studied independently.
+- Text-specific policy, source priority, workflow, progress, and exercise tracking live in the active study pack.
 - Code workflow: write runnable Python exercises. Add tests only when they clarify a mathematical invariant.
-- Sage workflow: use Sage/Runestone examples for computation-heavy algebra exploration, keeping local `.sage` files under `sage/`.
 - Agent harnesses: Pi resources under `.pi/` and OpenCode resources under `.opencode/` provide neutral routing plus explicit pedagogical roles. This repo intentionally avoids `AGENTS.md` so general coding agents are not forced into tutor behavior.
 
 ## Layout
 
-- `docs/`: study workflow, resource notes, and AATA version notes.
-- `tracking/`: chapter progress, exercise completion, and coding exercise status.
+- `studies/`: text-specific study packs, helper scripts, and the active-study selector.
+- `docs/`: cross-text pedagogy and harness documentation.
 - `references/`: downloaded PDFs, course pages, problem sets, solutions, and generated diffs.
 - `notes/`: chapter notes and reading summaries.
 - `sage/`: local Sage examples and experiments.
 - `code/`: runnable Python coding exercises and optional tests.
-- `scripts/`: resource fetch and AATA diff helpers.
 - `.pi/`: Pi harness resources for tutoring, assessment, planning, and coding workflows.
 - `.opencode/`: OpenCode harness resources for the same pedagogical workflows.
 
@@ -57,8 +54,8 @@ uv run ruff check
 Refresh downloaded references:
 
 ```sh
-uv run python scripts/fetch_references.py
-scripts/update_aata_diff.sh
+uv run python studies/judson-aata/scripts/fetch_references.py
+studies/judson-aata/scripts/update_aata_diff.sh
 ```
 
-Start exercise selection from `tracking/pitt-math0430-index.md`, then apply any known old-edition corrections from `docs/pitt-exercise-verification.md`.
+For the Judson AATA pack, start exercise selection from `studies/judson-aata/exercises/index.md`, then apply any known old-edition corrections from `studies/judson-aata/exercises/verification.md`.

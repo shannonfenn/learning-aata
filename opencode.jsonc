@@ -1,6 +1,6 @@
 {
   "$schema": "https://opencode.ai/config.json",
-  "instructions": [".opencode/instructions/aata-agent-router.md"],
+  "instructions": [".opencode/instructions/math-agent-router.md"],
   "share": "disabled",
   "permission": {
     "skill": {

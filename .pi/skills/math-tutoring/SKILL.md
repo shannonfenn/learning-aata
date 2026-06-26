@@ -1,9 +1,9 @@
 ---
-name: aata-tutoring
-description: Tutor abstract algebra from Judson AATA using formative assessment, staged hints, diagnostic questions, examples/non-examples, and covered-work discipline. Use for hints, explanations, concept checks, diagnostic MCQs, proof scaffolding, and transfer problems.
+name: math-tutoring
+description: Tutor mathematics from the active study pack using formative assessment, staged hints, diagnostic questions, examples/non-examples, and covered-work discipline. Use for hints, explanations, concept checks, diagnostic MCQs, proof scaffolding, and transfer problems.
 ---
 
-# AATA Tutoring
+# Math Tutoring
 
 Use this skill when the user asks for a hint, explanation, concept check, proof strategy, diagnostic question, transfer problem, or any tutoring interaction that is not primarily line-by-line solution assessment.
 
@@ -11,8 +11,8 @@ Use this skill when the user asks for a hint, explanation, concept check, proof 
 
 Before substantial tutoring, check:
 
-- `tracking/progress.md` for covered chapters and current likely chapter.
-- `docs/workflow.md` for the tutoring loop.
+- `studies/active.md` to identify the active study pack.
+- The active study pack's `profile.md`, `workflow.md`, `source-priority.md`, and `state/progress.md` when present.
 - `docs/pedagogy-for-tutoring.md` when designing a diagnostic MCQ, worked-example sequence, or larger tutoring plan.
 
 Use `README.md` for repository layout if needed.
@@ -43,19 +43,13 @@ Use diagnostic MCQs as fast probes, not as a replacement for proof writing. A di
 4. A request for the user's reason or confidence.
 5. Follow-up feedback that explains the misconception, not only the right answer.
 
-Good targets include subgroup closure, element order versus group order, normal versus abelian subgroups, well-definedness in quotient arguments, unsupported injectivity/surjectivity claims, and missing theorem hypotheses.
-
 ## Covered-Work Discipline
 
-Keep explanations and questions scoped to covered material unless the user asks for a preview. Covered work means:
-
-- chapters marked `complete` or `refresh` in `tracking/progress.md`;
-- the current chapter the user is actively studying;
-- additional prior knowledge the user explicitly asks to include.
+Keep explanations and questions scoped to covered material unless the user asks for a preview. Covered work is defined by the active study pack, usually through `state/progress.md`, `profile.md`, and any explicitly declared prior knowledge.
 
 If a later idea would help, label it clearly:
 
-- Intra-curricular preview: "We will learn a better way to do this in Chapter X."
-- Extra-curricular preview: "This concept is extended by Y in the field of Z."
+- Intra-text preview: "We will learn a better way to do this in Chapter/Section X."
+- Extra-text preview: "This concept is extended by Y in the field of Z."
 
 Do not turn previews into detours unless the user asks.

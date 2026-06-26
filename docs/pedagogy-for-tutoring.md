@@ -1,6 +1,6 @@
 # Pedagogy Notes for Agent Tutors
 
-This repo uses compact Pi and OpenCode project resources under `.pi/` and `.opencode/` for tutoring policy. This file records the research basis so agents can consult it when designing help for a specific topic.
+This repo uses compact Pi and OpenCode project resources under `.pi/` and `.opencode/` for generic mathematics tutoring policy. Text-specific policy lives in study packs under `studies/`. This file records the research basis so agents can consult it when designing help for a specific topic.
 
 ## Practical Principles
 
@@ -13,13 +13,13 @@ This repo uses compact Pi and OpenCode project resources under `.pi/` and `.open
 - Support productive struggle, but keep it productive: reduce the problem, give a hint, or switch to a worked example when the user lacks the prerequisite schema.
 - Use metacognitive prompts after feedback: "What was the first wrong inference?" and "What cue would help you catch this next time?"
 
-## Adaptation for Abstract Algebra
+## Adaptation for Proof-Based Mathematics
 
 Most diagnostic-question guidance comes from school mathematics. In this repo, use it as a way to expose conceptual and proof-strategy misconceptions quickly, then return to proof writing, examples, and exercises. A diagnostic MCQ is useful when it changes the next tutoring move; it is not useful as busywork.
 
 ## Diagnostic MCQ Pattern
 
-For abstract algebra, a diagnostic MCQ should usually have:
+For proof-based mathematics, a diagnostic MCQ should usually have:
 
 1. one target idea;
 2. four plausible answers;
@@ -27,13 +27,13 @@ For abstract algebra, a diagnostic MCQ should usually have:
 4. a request for the user's reason or confidence;
 5. follow-up feedback that explains the misconception, not only the right answer.
 
-Good targets include:
+Example diagnostic targets for a proof-based study pack might include:
 
-- confusing subgroup closure with subset membership;
-- confusing the order of an element with the order of a group;
-- treating normal subgroups as equivalent to abelian subgroups;
-- forgetting well-definedness in quotient or equivalence-class arguments;
-- assuming a homomorphism is injective or surjective without proof;
+- confusing an object satisfying a definition with a superficially similar object;
+- forgetting to check a required theorem hypothesis;
+- treating a sufficient condition as necessary, or a necessary condition as sufficient;
+- confusing existence with uniqueness;
+- assuming a function is injective, surjective, continuous, linear, or well-defined without proof;
 - using a theorem while missing one of its hypotheses.
 
 ## Sources

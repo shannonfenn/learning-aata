@@ -1,6 +1,6 @@
 # Pitt Math 0430 Exercise Index
 
-Pitt is the primary exercise filter. The exercise numbers were assigned against the 2017 or 2015 AATA editions. Known 2021 renumbering is recorded in `docs/pitt-exercise-verification.md`.
+Pitt is the primary exercise filter. The exercise numbers were assigned against the 2017 or 2015 AATA editions. Known 2021 renumbering is recorded in `verification.md`.
 
 ## Fall 2017 Primary Set
 
