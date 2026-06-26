@@ -19,13 +19,17 @@ cache-dir = ".uv-cache"
 package = false
 
 [tool.pytest.ini_options]
-pythonpath = ["code/python"]
-testpaths = ["code/python/tests"]
+pythonpath = ["studies/judson-aata/code/python"]
+testpaths = ["studies/judson-aata/code/python/tests"]
 
 [tool.ruff]
 line-length = 100
 target-version = "py312"
-src = ["code/python/exercises", "code/python/tests", "studies/judson-aata/scripts"]
+src = [
+  "studies/judson-aata/code/python/exercises",
+  "studies/judson-aata/code/python/tests",
+  "studies/judson-aata/scripts",
+]
 extend-exclude = [".cache", ".uv-cache", ".venv", "references"]
 
 [tool.ruff.lint]

@@ -28,8 +28,8 @@ Use this sequence when asking an agent for help:
 With `just` installed:
 
 ```sh
-just ch02
-just exercise ch02
+just ch03-groups
+just exercise ch03_groups
 just test
 just check
 ```
@@ -37,7 +37,7 @@ just check
 For Python:
 
 ```sh
-uv run python code/python/exercises/ch02.py
+uv run python studies/judson-aata/code/python/exercises/ch03_groups.py
 ```
 
 Optional tests and lint:

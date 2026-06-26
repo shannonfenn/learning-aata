@@ -12,7 +12,7 @@ Some study packs include official or community Sage examples. Local files should
 Run local examples with:
 
 ```sh
-sage sage/ch02-integers/euclidean_algorithm.sage
+sage studies/judson-aata/code/sage/ch02-integers/euclidean_algorithm.sage
 ```
 
 Sage is not managed by `uv` and may need a separate install.

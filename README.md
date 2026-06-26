@@ -17,8 +17,6 @@ Workspace for self-study of mathematics texts using reusable Pi/OpenCode pedagog
 - `docs/`: cross-text pedagogy and harness documentation.
 - `references/`: downloaded PDFs, course pages, problem sets, solutions, and generated diffs.
 - `notes/`: chapter notes and reading summaries.
-- `sage/`: local Sage examples and experiments.
-- `code/`: runnable Python coding exercises and optional tests.
 - `.pi/`: Pi harness resources for tutoring, assessment, planning, and coding workflows.
 - `.opencode/`: OpenCode harness resources for the same pedagogical workflows.
 
@@ -31,8 +29,8 @@ See `docs/agent-harnesses.md` for the v0 Pi/OpenCode setup, role boundaries, and
 With `just` installed:
 
 ```sh
-just ch02
-just exercise ch02
+just ch03-groups
+just exercise ch03_groups
 just test
 just check
 ```
@@ -41,7 +39,7 @@ Without `just`:
 
 ```sh
 uv sync
-uv run python code/python/exercises/ch02.py
+uv run python studies/judson-aata/code/python/exercises/ch03_groups.py
 ```
 
 Optional tests and lint:

@@ -13,14 +13,14 @@ Before coding, check:
 
 - `studies/active.md` to identify the active study pack.
 - The active study pack's `profile.md`, `state/progress.md`, and `state/code-exercises.md` when present.
-- `README.md` and `code/README.md` for repository layout and commands.
+- `README.md` and the active study pack's `workflow.md` for repository layout and commands.
 - `pyproject.toml` for Python environment and tooling.
 
 ## Code Policy
 
 - Python is managed by `uv`; run Python commands with `uv run`.
 - Prefer runnable exercise files over package-style code.
-- Put Python exercises in `code/python/exercises/` and run them directly with `uv run python`.
+- Put practice code inside the active study pack's `code/` directory; for Python exercises, use `code/python/exercises/` within that pack and run files directly with `uv run python`.
 - Add tests only when they sharpen mathematical feedback, such as testing an invariant over many inputs.
 - Keep text- or chapter-specific code direct until repetition justifies abstraction.
 - Recommend coding exercises only when they directly reinforce the active study pack's covered concepts.
@@ -32,11 +32,11 @@ Use whichever commands are available in the environment:
 
 ```sh
 uv sync
-just ch02
-just exercise ch02
+just ch03-groups
+just exercise ch03_groups
 just test
 just check
-uv run python code/python/exercises/ch02.py
+uv run python studies/judson-aata/code/python/exercises/ch03_groups.py
 uv run pytest
 uv run ruff check
 studies/judson-aata/scripts/update_aata_diff.sh

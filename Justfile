@@ -1,21 +1,17 @@
 default:
     @just --list
 
-# Run a Python exercise, e.g. `just py ch02`
+# Run a Python exercise from the active study pack, e.g. `just py ch03_groups`
 py name:
-    uv run python code/python/exercises/{{name}}.py
+    uv run python studies/judson-aata/code/python/exercises/{{name}}.py
 
 # Run a named exercise.
 exercise name:
-    uv run python code/python/exercises/{{name}}.py
+    uv run python studies/judson-aata/code/python/exercises/{{name}}.py
 
-# Run Chapter 2 Python exercise.
-ch02:
-    just exercise ch02
-
-# Run Chapter 2 Python exercise.
-py-ch02:
-    just py ch02
+# Run Chapter 3 finite-group exercise.
+ch03-groups:
+    just exercise ch03_groups
 
 # Run optional tests.
 test:

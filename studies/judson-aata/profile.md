@@ -26,6 +26,7 @@ Chapter 7 (Cryptography) and Chapter 20 (Vector Spaces) are refresh chapters bec
 - `exercises/`: curated exercise-selection data.
 - `editions/`: edition/version notes.
 - `state/`: mutable learner state, including chapter progress and coding exercise status.
+- `code/`: AATA-specific runnable Python exercises, tests, and Sage experiments.
 - `scripts/`: AATA-specific reference-fetch and edition-diff helpers.
 
-Reference files currently live under top-level `references/`. Sage examples currently live under top-level `sage/`. Python exercises currently live under top-level `code/`.
+Reference files currently live under top-level `references/`. Computational exercise work for this text lives under this pack's `code/` directory.
