@@ -1,6 +1,6 @@
-# Mathematics Study Workspace
+# Tooter
 
-Workspace for self-study of mathematics texts using reusable Pi/OpenCode pedagogy roles and text-specific study packs. The active study pack is currently Thomas W. Judson's *Abstract Algebra: Theory and Applications* (AATA).
+Tooter is a workspace for self-study of mathematics texts using reusable Pi/OpenCode pedagogy roles and text-specific study packs. The active study pack is currently Thomas W. Judson's *Abstract Algebra: Theory and Applications* (AATA).
 
 ## Active Study Pack
 
