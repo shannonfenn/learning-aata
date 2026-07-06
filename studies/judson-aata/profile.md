@@ -29,4 +29,4 @@ Chapter 7 (Cryptography) and Chapter 20 (Vector Spaces) are refresh chapters bec
 - `code/`: AATA-specific runnable Python exercises, tests, and Sage experiments.
 - `scripts/`: AATA-specific reference-fetch and edition-diff helpers.
 
-Reference files currently live under top-level `references/`. Computational exercise work for this text lives under this pack's `code/` directory.
+Reference files currently live under top-level `references/`. Programming exercise work for this text lives under this pack's `code/` directory.

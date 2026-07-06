@@ -23,7 +23,7 @@ Use this sequence when asking an agent for help:
 4. Ask the agent to identify which concept failed if an answer is wrong.
 5. After correction, ask for one transfer problem that tests the same idea.
 
-## Computational Learning Loop
+## Programming Exercise Loop
 
 With `just` installed:
 
@@ -36,15 +36,4 @@ For Python:
 
 ```sh
 uv run python studies/judson-aata/code/python/exercises/ch03_groups.py
-```
-
-Ask Codex or another development agent for repository maintenance commands such as full test/lint runs or reference refreshes:
-
-```sh
-just test
-just check
-uv run pytest
-uv run ruff check
-uv run python studies/judson-aata/scripts/fetch_references.py
-studies/judson-aata/scripts/update_aata_diff.sh
 ```

@@ -10,4 +10,4 @@ An active study pack supplies text-specific policy and state:
 - `source-priority.md`: source order and reference policy.
 - `workflow.md`: study loop, tutoring loop, and programming exercise loop.
 - `state/progress.md`: covered-work boundary and chapter/section status.
-- optional `state/` trackers, exercise indexes, edition notes, verification notes, and code trackers.
+- optional `state/` trackers, exercise indexes, edition notes, verification notes, and programming exercise trackers.

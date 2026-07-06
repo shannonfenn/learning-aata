@@ -21,7 +21,7 @@ Before designing or running a programming exercise, check:
 - Python is managed by `uv`; run Python commands with `uv run`.
 - Prefer runnable exercise files over package-style code.
 - Put practice code inside the active study pack's `code/` directory; for Python exercises, use `code/python/exercises/` within that pack and run files directly with `uv run python`.
-- Add tests only when they sharpen mathematical feedback, such as testing an invariant over many inputs.
+- Add or run focused tests only when they sharpen mathematical feedback, such as testing an invariant over many inputs.
 - Keep text- or chapter-specific code direct until repetition justifies abstraction.
 - Recommend programming exercises only when they directly reinforce the active study pack's covered concepts.
 - Defer programs that mainly exercise later definitions, and state where they belong in the active text.

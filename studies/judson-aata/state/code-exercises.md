@@ -1,4 +1,4 @@
-# Code Exercise Tracking
+# Programming Exercise Tracking
 
 | Chapter | Exercise/topic | Python status | Tests | Notes |
 | --- | --- | --- | --- | --- |

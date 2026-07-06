@@ -8,7 +8,7 @@ Workspace for self-study of mathematics texts using reusable Pi/OpenCode pedagog
 - Current pack: `studies/judson-aata/`.
 - Primary text: 2021 print/PDF edition of Judson AATA.
 - Text-specific policy, source priority, workflow, progress, and exercise tracking live in the active study pack.
-- Computational learning workflow: write runnable Python or Sage exercises. Add tests only when they clarify a mathematical invariant.
+- Programming exercise workflow: write runnable Python or Sage exercises. Add tests only when they clarify a mathematical invariant.
 - Agent harnesses: Codex is used for repository development; Pi resources under `.pi/` and OpenCode resources under `.opencode/` provide teaching roles. This repo intentionally avoids `AGENTS.md` so general coding agents are not forced into tutor behavior.
 
 ## Layout
@@ -24,7 +24,7 @@ Workspace for self-study of mathematics texts using reusable Pi/OpenCode pedagog
 
 See `docs/agent-harnesses.md` for the v0 Pi/OpenCode setup, role boundaries, and usage notes.
 
-## Computational Learning Commands
+## Programming Exercise Commands
 
 With `just` installed:
 
